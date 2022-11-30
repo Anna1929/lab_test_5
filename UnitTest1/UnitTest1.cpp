@@ -14,7 +14,7 @@ namespace UnitTest1
 		{
 			double x = 1;
 			int n = 5;
-			double expected = -9; //невірне значення
+			double expected = 34; //невірне значення
 			double actual = calculate1(x, n);
 			Assert::AreEqual(expected, actual); 
 		}
